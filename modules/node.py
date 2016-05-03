@@ -35,27 +35,8 @@ class Node:
         '''
         given a single observation, will return the output of the tree
         '''
-        # Your code here # this doesn't work so far
-        if self.is_nominal == True:
-            self.children
-        else:
-            index0=[]
-            index1=[]
-            for value in self.children.iteritems():
-                if value < self.splitting_value:
-                    a = [value]
-                    index0.append(a)
-                else:
-                    b = [value]
-                    index1.append(b)
-            self.children = [[index0[i], index1[i]] for i in range(len(index0))]        
-        if self.decision_attribute is not None or len(set(self.children)) != 1:
-            self.label = None
-        else:
-            self.label
-            
-        return self.label
-        pass
+	# Your code here
+	pass
 
     def print_tree(self, indent = 0):
         '''
@@ -63,7 +44,6 @@ class Node:
         IMPLEMENTING THIS FUNCTION IS OPTIONAL
         '''
         # Your code here
-        return str()
         pass
 
 
