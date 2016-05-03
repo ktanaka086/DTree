@@ -14,10 +14,7 @@ def ID3(data_set, attribute_metadata, numerical_splits_count, depth):
     Output: The node representing the decision tree learned over the given data set
     ========================================================================================================
     '''
-<<<<<<< HEAD
 
-=======
->>>>>>> e60940108a22676b46cd9a706a3de7b4eddcefca
     pass
 
 #Jim
@@ -30,7 +27,6 @@ def check_homogenous(data_set):
     ========================================================================================================
     Output: Return either the homogenous attribute or None
     ========================================================================================================
-<<<<<<< HEAD
     '''
     index0 = [i[0] for i in data_set]
     if len(set(index0)) == 1:
@@ -38,9 +34,6 @@ def check_homogenous(data_set):
     else :
         check_homogenous = None
     return check_homogenous
-=======
-     '''
->>>>>>> e60940108a22676b46cd9a706a3de7b4eddcefca
 
 # ======== Test Cases =============================
 # data_set = [[0],[1],[1],[1],[1],[1]]
